@@ -1265,14 +1265,13 @@
       border: 2px solid var(--line);
       display: flex;
       flex-direction: column;
-      overflow: hidden;
+      min-height: 0;
       position: relative;
     }
 
     .build-code-label {
-      position: absolute;
-      top: -16px;
-      left: 24px;
+      align-self: flex-start;
+      margin-bottom: 12px;
       background: var(--ink);
       color: white;
       padding: 4px 14px;
@@ -1280,7 +1279,6 @@
       font-size: clamp(15px, 1.25vw, 20px);
       font-weight: 800;
       letter-spacing: 0.08em;
-      z-index: 2;
     }
 
     .build-code .code-img-wrap {
@@ -1893,7 +1891,7 @@
         <h1>스마트 응원봉<br>만들기<span class="pink">.</span></h1>
         <p class="cover-sub">Ⅰ. 컴퓨팅 시스템<br>02. 사물 인터넷 시스템<br>3. 사물 인터넷 시스템 설계</p>
         <div class="cover-meta">
-          <span class="pill">2026. 5. 22.(금) · 2교시</span>
+          <span class="pill">2026. 10. 28.(수) · 2교시</span>
           <span class="pill alt">1학년 1반</span>
           <span class="pill alt">권민지 선생님</span>
         </div>
